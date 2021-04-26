@@ -2,7 +2,7 @@
 var express = require( 'express' ),
     { exec } = require( 'child_process' ),
     app = express();
-var command = '/home/dotnsf/src/hello/hello';
+var command = '/home/dotnsf/src/hello-cobol/hello';
 
 app.use( express.Router() );
 
